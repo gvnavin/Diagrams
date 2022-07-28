@@ -1,0 +1,17 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Scaling/Normalization title
+
++ Scaling/Normalization
+++ Some models prefer feature data to be normally distributed around 0
+++ feature data to be atleast be scaled to comparable values
++++ otherwise feature with larger magnitudes will have more weight
++++ modeling age and incomes
++++ income will be higher values than ages
+++ Scikit_learn
++++ Preprocessor Module
+++++ MinMaxScaler
+++ Remember to scale your results back up
+
+@endmindmap

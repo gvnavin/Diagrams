@@ -1,0 +1,23 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Time Series Analysis title
+
++ .
+++ Discrete data points over time
+++ Types
++++ Trends
+++++ Sea levels in different times
++++ Seasonality
+++++ Pneumonia during rainy season
++++ Both
++++ Noise
+++ Multiplicative model
++++ Seasonality * trends * noise = trends
+
+
+
+
+
+
+@endmindmap

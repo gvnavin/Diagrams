@@ -1,0 +1,46 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Athena title
+
++ Athena
+++ Presto Under the hood
+++ Serverless
+++ Format
++++ CSV
+++++ human-readable
++++ JSON
+++++ human-readable
++++ ORC
+++++ columnar
+++++ splittable
++++ Parquet
+++++ columnar
+++++ splittable
++++ Avro
+++++ splittable
+++ Structured
+++ Unstructured
+++ Semi-structured
+++ Example Use cases
++++ Adhoc queries of web logs
++++ Querying staging data before loading to Redshift
++++ Analyze cloudtrail/cloudfront/vpc/elb logs in S3
++++ Integration with Jupyter, Zeppelin, RStudio notebooks
++++ Integration with Quicksight
++++ Integration with ODBC/JDBC with other Visualization tools
++++ Glue
+++++ Catalog table can pick schemas from S3
+++++ Athena can use the schema and columnar data
+++++ S3 -> Glue -> Athena -> Quicksight
+++ Cost
++++ Based on the volume of data scanned
++++ Compress the data to keep the cost cheap
++++ Columnar format
+++++ ORC
+++++ Parquet
+++++ Better Performance
+++++ Reduce Cost
+
+
+@endmindmap

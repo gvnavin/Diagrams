@@ -1,0 +1,11 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Shuffling title
+
++ Shuffling
+++ Many algorithms benefit from shuffling training data
+++ may learn order of training data
+
+
+@endmindmap

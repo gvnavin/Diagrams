@@ -1,0 +1,24 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Binning title
+
++ Binning
+++ Bucket values together based on range
+++ Example
++++ Age
+++++ 20-30 --> 20
+++++ 30-40 --> 30
++++ Why ?
+++++ Sometimes uncertainties in the measurement
+++++ measurement are not exactly precise
+++++ covering the imprecision in measurement
+++++ get rid of underlying errors in measurement
+++++ categorical data instead of numerical data
+++ Quantile
++++ categorises data
++++ distribute data in such a way that same number of samples in each
++++ even sizes in each bin
+
+
+@endmindmap
