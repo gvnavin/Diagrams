@@ -1,0 +1,19 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Encoding title
+
++ Encoding
+++ Transforming data into some new representation required by the model
+++ Examples
++++ One-hot encoding
+++++ Buckets for every category
+++++ 1 for category exist
+++++ 0 for category not exist
+++++ common deep learning
+++++ categories are represented by individual output "neurons"
+++++ Example
++++++ Array of size 10 to each index represent digits 0-9
+
+
+@endmindmap

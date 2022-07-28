@@ -1,0 +1,43 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Data Distribution
+
++ Distribution
+++ Value falls in the range
+++ Types
++++ Normal Distribution
+++++ one example of probabilistic density function
+++++ probability of value occurring
+++++ misleading in continuous data
+++++ infinite possible values like 0, 0.0001
+++++ probability of specific value happening is very small
+++++ standard deviation from mean
+++++ function
++++++ Continuous
+++++++ probability density function
++++++++ given range of value
++++++++ gives probability of occurring
+++++++ probability distribution function
++++++++ given range of value
++++++++ gives probability of data falling
++++++ Discrete
+++++++ probability mass function (pmf)
++++++++ probability of value occurring
+++++++ Histogram
++++ Poison Distribution
+++++ Example for pmf
+++++ Discrete
+++++ Examples
++++++ How many homes sold
++++++ How many emails received per day
++++++ How many calls received in call center
++++ Binomial Distribution
+++++ Discrete
+++++ Sum of all Bernoulli Distribution
++++ Bernoulli Distribution
+++++ Special case of Binomial Distribution
+++++ Single Trial n=1
+
+
+@endmindmap

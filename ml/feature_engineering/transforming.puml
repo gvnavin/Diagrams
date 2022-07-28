@@ -1,0 +1,18 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Transforming title
+
++ Transforming
+++ Applying some function to a feature to make it better suited for training
+++ Example
++++ Feature data with an exponential trend may benefit from a logarithmic transform
++++ YouTube recommendations
+++++ Numeric feature x is also represented by x^2 and sqrt(2)
+++++ Learn super adn sublinear functions
+++ replacing an existing feature
+++ creating a new feature
+++ Sometimes more data is better
+++ Feature engineering is all about finding balance between enough information and few information
+
+@endmindmap

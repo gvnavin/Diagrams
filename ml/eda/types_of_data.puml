@@ -1,0 +1,44 @@
+@startmindmap
+'https://plantuml.com/mindmap-diagram
+
+title Types of Data
+
++ Types
+++ Numerical
++++ Quantitative Mesaurement
+++++ Examples
++++++ Heights of people
++++++ Page load time
++++++ Stock Prices
+++++ Types
++++++ Discrete Data
+++++++ Integer
+++++++ Examples
++++++++ How many purchases did a customer make in a year
+++++++++ People can buy 2 or 3 things
+++++++++ People cannot buy 2.5 things
++++++ Continuous Data
+++++++ Infinite possible values
+++++++ Examples
++++++++ How much time did it take for a user checkout
++++++++ How much rain fell on a given day
+++ Categorical
++++ Qualitative data
++++ no mathematical meaning
++++ assign number to represent them compactly
++++ examples
+++++ Gender
+++++ Yes/no
+++++ Race
+++++ State
+++++ Product Category
+++++ Political Party
+++ Ordinal
++++ Numerical + Categorical
++++ Categorical Data has mathematical meaning
+++++ Examples
++++++ Movie Rating 1-5
+++++++ mathematical meaning 1 means worse movie than 2
+
+
+@endmindmap
